@@ -17,8 +17,8 @@ import ImportantInfo from "@/components/tour-single/ImportantInfo";
 import TourGallery from "@/components/tour-single/TourGallery";
 
 export const metadata = {
-  title: "Tour Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Tour Single || Dream Trip - Travel & Tour React NextJS Template",
+  description: "Dream Trip - Travel & Tour React NextJS Template",
 };
 
 const TourSingleV1Dynamic = ({ params }) => {
