@@ -22,8 +22,8 @@ import Rentals from "@/components/rentals/Rentals";
 import Hotels from "@/components/hotels/Hotels2";
 
 export const metadata = {
-  title: "Destinations || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Destinations || Dream Trip - Travel & Tour React NextJS Template",
+  description: "Dream Trip - Travel & Tour React NextJS Template",
 };
 
 const Destinations = () => {
@@ -54,7 +54,7 @@ const Destinations = () => {
 
           <div className="row y-gap-20 pt-40">
             <div className="col-auto">
-              <h2>What to know before visiting London</h2>
+              <h2>What to know before visiting Kashmir</h2>
             </div>
             {/* End .col-auto */}
 
@@ -351,7 +351,7 @@ const Destinations = () => {
               <h2 className="text-30 fw-500">
                 FAQs about
                 <br />
-                London
+                Kashmir
               </h2>
             </div>
             {/* End .col */}
@@ -375,7 +375,7 @@ const Destinations = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Destinations near London
+                  Destinations near Kashmir
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   These popular destinations have a lot to offer
