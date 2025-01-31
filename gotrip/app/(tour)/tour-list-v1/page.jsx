@@ -8,8 +8,8 @@ import Pagination from "@/components/tour-list/common/Pagination";
 import Sidebar from "@/components/tour-list/tour-list-v1/Sidebar";
 
 export const metadata = {
-  title: "Tour List v1 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Tour List v1 || Dream Trip - Travel & Tour React NextJS Template",
+  description: "Dream Trip - Travel & Tour React NextJS Template",
 };
 
 const index = () => {
@@ -28,7 +28,7 @@ const index = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <h1 className="text-30 fw-600">Tours in London</h1>
+                <h1 className="text-30 fw-600">Tours in Kashmir</h1>
               </div>
               {/* End text-center */}
               <MainFilterSearchBox />
