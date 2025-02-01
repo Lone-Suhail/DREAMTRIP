@@ -1,4 +1,4 @@
-
+{/*
 'use client'
 
 import Link from "next/link";
@@ -65,4 +65,5 @@ const Destinations = () => {
   );
 };
 
-export default Destinations;
+export default Destinations; 
+  */}
