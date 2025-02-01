@@ -60,7 +60,7 @@ const Destinations = () => {
           </div>
         </div>
       </div>
-      {/* End .tabs__content */}
+     
     </>
   );
 };
