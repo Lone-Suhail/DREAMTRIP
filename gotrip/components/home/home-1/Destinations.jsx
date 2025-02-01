@@ -1,4 +1,4 @@
-
+ {/*
 'use client'
 
 import Link from "next/link";
@@ -10,12 +10,12 @@ const Destinations = () => {
   const [filteredItems, setFilteredItems] = useState([])
 
   const filterOptions = [
-    {/* { label: "All", value: "all" },
+    { label: "All", value: "all" },
     { label: "Europe", value: "europe" },
     { label: "Asia", value: "asia" },
     { label: "North America", value: "north_america" },
     // add more options as needed
-  ];  */}
+  ];  
   useEffect(() => {
     if (filterOption == 'all') {
       setFilteredItems(destinations1)
