@@ -1,6 +1,4 @@
- {/*
-'use client'
-
+ 'use client'
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { destinations1 } from "../../../data/desinations";
@@ -66,4 +64,3 @@ const Destinations = () => {
 };
 
 export default Destinations; 
-  
