@@ -130,11 +130,9 @@ export const dashboardItems = [
     routePath: "/login",
   },
 ];
-*/}
-export const categorieMegaMenuItems = [
-    {
-    id: 1,
-  {/*  menuCol: [
+
+
+  menuCol: [
       {
         id: 1,
         megaBanner: "/img/backgrounds/7.png",
@@ -194,20 +192,20 @@ export const categorieMegaMenuItems = [
           },
         ],
       },
-    ],
-  }, */}
-  
-    id: 2,
+    ],*/}
+export const categorieMegaMenuItems = [
+  {
+    id: 2,    
     menuCol: [
       {
-        id: 1,
+        id: 2,
         megaBanner: "/img/backgrounds/8.png",
         title: "Things to do on your tour",
         btnText: "See Tour",
         btnRoute: "/tour-list-v1",
         menuItems: [
           {
-            id: 1,
+            id: 3,  // Unique ID
             title: "Tour List",
             menuList: [
               {
@@ -221,23 +219,27 @@ export const categorieMegaMenuItems = [
             ],
           },
           {
-            id: 2,
+            id: 4,  // Unique ID
             title: "Tour Pages",
             menuList: [
               {
                 name: "Tour Map",
                 routePath: "/tour-list-v3",
               },
-              {/*  {
-                name: "Tour Single",
-                routePath: "/tour-single/5",
-              },*/}
+              // Uncomment if needed
+              // {
+              //   name: "Tour Single",
+              //   routePath: "/tour-single/5",
+              // },
             ],
           },
         ],
       },
     ],
   },
+];
+
+      
 {/* {
     id: 3,
     menuCol: [
@@ -432,12 +434,9 @@ export const categorieMegaMenuItems = [
       },
     ],
   },
-];
-
-export const categorieMobileItems = [
-  {
-    id: 1,
-    title: "Hotel",
+ 
+ id: 1,
+   title: "Hotel",
     menuItems: [
       {
         id: 1,
@@ -491,12 +490,14 @@ export const categorieMobileItems = [
       },
     ],
   },*/}
+
+export const categorieMobileItems = [
   {
     id: 2,
     title: "Tour",
     menuItems: [
       {
-        id: 1,
+        id: 1,  // Unique ID
         title: "Tour List",
         menuList: [
           {
@@ -510,21 +511,24 @@ export const categorieMobileItems = [
         ],
       },
       {
-        id: 2,
+        id: 3,  // Unique ID
         title: "Tour Pages",
         menuList: [
           {
             name: "Tour Map",
             routePath: "/tour-list-v3",
           },
-          {/* {
-            name: "Tour Single",
-            routePath: "/tour-single/5",
-          },*/}
+          // Uncomment if needed
+          // {
+          //   name: "Tour Single",
+          //   routePath: "/tour-single/5",
+          // },
         ],
       },
     ],
   },
+];
+
 {/*  {
     id: 3,
     title: "Activity",
@@ -673,8 +677,8 @@ export const categorieMobileItems = [
             name: "Flight List v1",
             routePath: "/flight-list-v1",
           },
-        ],*/}
+        ],
       },
     ],
   },
-];
+];   */}
