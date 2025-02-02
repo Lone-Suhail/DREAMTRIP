@@ -2,8 +2,8 @@ export const homeItems = [
   {
     name: "Home 01",
     routePath: "/",
-  },
-  {
+  } ]
+{/*  {
     name: "Home 02",
     routePath: "/home_2",
   },
@@ -39,7 +39,7 @@ export const homeItems = [
     name: "Home 10",
     routePath: "/home_10",
   },
-];
+];*/}
 export const blogItems = [
   {
     name: "Blog List V1",
