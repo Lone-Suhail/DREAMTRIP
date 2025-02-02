@@ -1,6 +1,6 @@
 export const homeItems = [
   {
-    name: "Home 01",
+    name: "Home",
     routePath: "/",
   } ]
 {/*  {
@@ -39,7 +39,7 @@ export const homeItems = [
     name: "Home 10",
     routePath: "/home_10",
   },
-];*/}
+];
 export const blogItems = [
   {
     name: "Blog List V1",
@@ -130,9 +130,9 @@ export const dashboardItems = [
     routePath: "/login",
   },
 ];
-
+*/}
 export const categorieMegaMenuItems = [
-  {
+  {/*  {
     id: 1,
     menuCol: [
       {
@@ -195,7 +195,7 @@ export const categorieMegaMenuItems = [
         ],
       },
     ],
-  },
+  }, */}
   {
     id: 2,
     menuCol: [
@@ -228,17 +228,17 @@ export const categorieMegaMenuItems = [
                 name: "Tour Map",
                 routePath: "/tour-list-v3",
               },
-              {
+              {/*  {
                 name: "Tour Single",
                 routePath: "/tour-single/5",
-              },
+              },*/}
             ],
           },
         ],
       },
     ],
   },
-  {
+{/* {
     id: 3,
     menuCol: [
       {
@@ -490,7 +490,7 @@ export const categorieMobileItems = [
         ],
       },
     ],
-  },
+  },*/}
   {
     id: 2,
     title: "Tour",
@@ -517,15 +517,15 @@ export const categorieMobileItems = [
             name: "Tour Map",
             routePath: "/tour-list-v3",
           },
-          {
+          {/* {
             name: "Tour Single",
             routePath: "/tour-single/5",
-          },
+          },*/}
         ],
       },
     ],
   },
-  {
+{/*  {
     id: 3,
     title: "Activity",
     menuItems: [
@@ -676,5 +676,5 @@ export const categorieMobileItems = [
         ],
       },
     ],
-  },
+  },*/}
 ];
