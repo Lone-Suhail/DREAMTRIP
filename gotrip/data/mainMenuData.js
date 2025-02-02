@@ -132,9 +132,9 @@ export const dashboardItems = [
 ];
 */}
 export const categorieMegaMenuItems = [
-  {/*  {
+    {
     id: 1,
-    menuCol: [
+  {/*  menuCol: [
       {
         id: 1,
         megaBanner: "/img/backgrounds/7.png",
@@ -196,7 +196,7 @@ export const categorieMegaMenuItems = [
       },
     ],
   }, */}
-  {
+  
     id: 2,
     menuCol: [
       {
@@ -673,8 +673,8 @@ export const categorieMobileItems = [
             name: "Flight List v1",
             routePath: "/flight-list-v1",
           },
-        ],
+        ],*/}
       },
     ],
-  },*/}
+  },
 ];
