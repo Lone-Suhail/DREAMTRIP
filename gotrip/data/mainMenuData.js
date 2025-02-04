@@ -4,12 +4,12 @@ export const homeItems = [
     routePath: "/",
   },
   {
-   name: "Home 02",
-   routePath: "/home_2",
+  //  name: "Home 02",
+ //  routePath: "/home_2",
   },
 ];
 
-export const blogItems = [
+/*export const blogItems = [
   {
     name: "Blog List V1",
     routePath: "/blog-list-v1",
@@ -58,8 +58,8 @@ export const pageItems = [
     routePath: "/invoice",
   },
 ];
-
-export const dashboardItems = [
+*/
+/*export const dashboardItems = [
   {
     name: "Dashboard",
     routePath: "/dashboard/db-dashboard",
@@ -100,7 +100,7 @@ export const dashboardItems = [
     name: "Logout",
     routePath: "/login",
   },
-];
+];*/
 
 export const categorieMegaMenuItems = [
   {
@@ -182,7 +182,7 @@ export const categorieMobileItems = [
       },
     ],
   },
-  {
+/*  {
     id: 3,
     title: "Activity",
     menuItems: [
@@ -333,5 +333,5 @@ export const categorieMobileItems = [
         ],
       },
     ],
-  },
+  },*/
 ];
