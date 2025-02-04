@@ -2,9 +2,7 @@ import Link from "next/link";
 
 import {
   homeItems,
-  blogItems,
-  pageItems,
-  dashboardItems,
+  
 } from "../../data/mainMenuData";
 import CategoriesMegaMenu from "./CategoriesMegaMenu";
 import {
