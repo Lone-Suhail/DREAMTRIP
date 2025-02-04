@@ -11,9 +11,6 @@ import {
 } from "react-pro-sidebar";
 import {
   homeItems,
-  blogItems,
-  pageItems,
-  dashboardItems,
   categorieMobileItems,
   categorieMegaMenuItems,
 } from "../../data/mainMenuData";
