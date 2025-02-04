@@ -174,7 +174,7 @@ export const categorieMobileItems = [
             name: "Tour Map",
             routePath: "/tour-list-v3",
           },
-         {
+          {
             name: "Tour Single",
             routePath: "/tour-single/5",
           },
@@ -182,8 +182,6 @@ export const categorieMobileItems = [
       },
     ],
   },
-];
- export const categorieMobileItems = [
   {
     id: 3,
     title: "Activity",
