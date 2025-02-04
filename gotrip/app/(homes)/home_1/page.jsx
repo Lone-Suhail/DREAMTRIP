@@ -9,7 +9,6 @@ import CallToActions from "@/components/common/CallToActions";
 import Destinations from "@/components/home/home-1/Destinations";
 import Testimonial from "@/components/home/home-1/Testimonial";
 import TestimonialLeftCol from "@/components/home/home-1/TestimonialLeftCol";
-import SelectFilter from "@/components/hotels/filter-tabs/SelectFilter";
 
 export const metadata = {
   title: "Home-1 || Dream Trip - Travel & Tour React NextJS Template",
