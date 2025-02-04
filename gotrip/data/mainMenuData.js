@@ -4,12 +4,12 @@ export const homeItems = [
     routePath: "/",
   },
   {
-  //  name: "Home 02",
- //   routePath: "/home_2",
+   name: "Home 02",
+   routePath: "/home_2",
   },
 ];
 
-/*export const blogItems = [
+export const blogItems = [
   {
     name: "Blog List V1",
     routePath: "/blog-list-v1",
@@ -100,7 +100,7 @@ export const dashboardItems = [
     name: "Logout",
     routePath: "/login",
   },
-];*/
+];
 
 export const categorieMegaMenuItems = [
   {
@@ -175,15 +175,15 @@ export const categorieMobileItems = [
             routePath: "/tour-list-v3",
           },
          {
-        //    name: "Tour Single",
-         //   routePath: "/tour-single/5",
+            name: "Tour Single",
+            routePath: "/tour-single/5",
           },
         ],
       },
     ],
   },
 ];
- /*export const categorieMobileItems = [
+ export const categorieMobileItems = [
   {
     id: 3,
     title: "Activity",
@@ -336,4 +336,4 @@ export const categorieMobileItems = [
       },
     ],
   },
-];*/
+];
