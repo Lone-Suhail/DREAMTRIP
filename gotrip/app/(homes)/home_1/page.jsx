@@ -5,12 +5,10 @@ import DefaultFooter from "@/components/footer/default";
 import Header1 from "@/components/header/header-1";
 import Hero1 from "@/components/hero/hero-1";
 import BlockGuide from "@/components/block/BlockGuide";
-import Blog from "@/components/blog/Blog3";
 import CallToActions from "@/components/common/CallToActions";
 import Destinations from "@/components/home/home-1/Destinations";
 import Testimonial from "@/components/home/home-1/Testimonial";
 import TestimonialLeftCol from "@/components/home/home-1/TestimonialLeftCol";
-import Hotels from "@/components/hotels/Hotels";
 import SelectFilter from "@/components/hotels/filter-tabs/SelectFilter";
 
 export const metadata = {
