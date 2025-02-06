@@ -82,19 +82,7 @@ const Home_1 = () => {
               </div>
             </div>
             <div className="col-sm-auto">
-              <SelectFilter />
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="relative overflow-hidden pt-40 sm:pt-20 js-section-slider item_gap-x30">
-            <Hotels />
-          </div>
-          {/* End relative */}
-        </div>
-      </section>
-      {/* Recommended Properties */}
-
+          
       <section className="layout-pt-md layout-pb-lg">
         <div className="container">
           <div className="row y-gap-20 justify-between">
