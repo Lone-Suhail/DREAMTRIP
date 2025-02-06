@@ -9,8 +9,8 @@ import Faq from "@/components/faq/Faq";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Become Expert || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Become Expert || Dream Trip - Travel & Tour",
+  description: "Dream Trip - Travel & Tour",
 };
 
 const BecomeExpert = () => {
