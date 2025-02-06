@@ -5,8 +5,8 @@ import DefaultFooter from "@/components/footer/default";
 import TermsConent from "@/components/common/TermsConent";
 
 export const metadata = {
-  title: "Terms & Conditions || Dream Trip - Travel & Tour React NextJS Template",
-  description: "Dream Trip - Travel & Tour React NextJS Template",
+  title: "Terms & Conditions || Dream Trip - Travel & Tour",
+  description: "Dream Trip - Travel & Tour",
 };
 
 const Terms = () => {
