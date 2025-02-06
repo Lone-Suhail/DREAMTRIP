@@ -9,6 +9,7 @@ import CallToActions from "@/components/common/CallToActions";
 import Destinations from "@/components/home/home-1/Destinations";
 import Testimonial from "@/components/home/home-1/Testimonial";
 import TestimonialLeftCol from "@/components/home/home-1/TestimonialLeftCol";
+import Blog from "@/components/blog/Blog"; // Import the Blog component
 
 export const metadata = {
   title: "Home-1 || Dream Trip - Travel & Tour",
@@ -43,6 +44,7 @@ const Home_1 = () => {
               <a
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+                aria-label="View All Destinations"
               >
                 View All Destinations
                 <div className="icon-arrow-top-right ml-15" />
@@ -82,7 +84,13 @@ const Home_1 = () => {
               </div>
             </div>
             <div className="col-sm-auto">
-          
+              {/* Add content here if needed */}
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* End Recommended Section */}
+
       <section className="layout-pt-md layout-pb-lg">
         <div className="container">
           <div className="row y-gap-20 justify-between">
@@ -90,7 +98,7 @@ const Home_1 = () => {
           </div>
         </div>
       </section>
-      {/* Block Guide Section */}
+      {/* End Block Guide Section */}
 
       <section className="layout-pt-lg layout-pb-lg bg-blue-2">
         <div className="container">
@@ -132,13 +140,7 @@ const Home_1 = () => {
           </div>
           {/* End .row  */}
           <div className="row y-gap-30 pt-40">
-            <Blog />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End blog Section */}
+           
 
       <section className="layout-pt-md layout-pb-lg">
         <div className="container">
