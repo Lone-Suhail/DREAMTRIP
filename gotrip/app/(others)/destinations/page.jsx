@@ -17,8 +17,8 @@ import GeneralInfo from "@/components/destinations/components/GeneralInfo";
 
 
 export const metadata = {
-  title: "Destinations || Dream Trip - Travel & Tour React NextJS Template",
-  description: "Dream Trip - Travel & Tour React NextJS Template",
+  title: "Destinations || Dream Trip - Travel & Tour",
+  description: "Dream Trip - Travel & Tour",
 };
 
 const Destinations = () => {
