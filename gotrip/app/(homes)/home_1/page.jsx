@@ -9,7 +9,6 @@ import CallToActions from "@/components/common/CallToActions";
 import Destinations from "@/components/home/home-1/Destinations";
 import Testimonial from "@/components/home/home-1/Testimonial";
 import TestimonialLeftCol from "@/components/home/home-1/TestimonialLeftCol";
-import Blog from "@/components/blog/Blog"; // Import the Blog component
 
 export const metadata = {
   title: "Home-1 || Dream Trip - Travel & Tour",
@@ -33,7 +32,7 @@ const Home_1 = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Popular Destinations</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                <p className="sectionTitle__text mt-5 sm:mt-0">
                   These popular destinations have a lot to offer
                 </p>
               </div>
@@ -78,7 +77,7 @@ const Home_1 = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Recommended</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                <p className="sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames ac ante ipsum
                 </p>
               </div>
@@ -132,23 +131,21 @@ const Home_1 = () => {
                 <h2 className="sectionTitle__title">
                   Get inspiration for your next trip
                 </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                <p className="sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames
                 </p>
               </div>
             </div>
           </div>
-          {/* End .row  */}
+          {/* End .row */}
           <div className="row y-gap-30 pt-40">
-           
-
-      <section className="layout-pt-md layout-pb-lg">
+         <section className="layout-pt-md layout-pb-lg">
         <div className="container">
           <div className="row">
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Destinations we love</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                <p className="sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames ac ante ipsum
                 </p>
               </div>
