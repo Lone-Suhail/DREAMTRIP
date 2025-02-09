@@ -7,11 +7,11 @@ import Pagination from "@/components/tour-list/common/Pagination";
 import MainFilterSearchBox from "@/components/tour-list/tour-list-v3/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/tour-list/tour-list-v3/TopHeaderFilter";
 
-export const metadata = {
+/*export const metadata = {
   title: "Tour List v3 || Dream Trip - Travel & Tour",
   description: "Dream Trip - Travel & Tour",
 };
-
+*/
 const index = () => {
   return (
     <>
