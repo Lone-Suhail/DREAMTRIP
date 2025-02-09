@@ -1,4 +1,3 @@
-"use client";
 
 import Header11 from "@/components/header/header-11";
 import DropdownSelelctBar from "@/components/tour-list/common/DropdownSelelctBar";
