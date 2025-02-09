@@ -7,11 +7,6 @@ import TopHeaderFilter from "@/components/tour-list/tour-list-v2/TopHeaderFilter
 import Pagination from "@/components/tour-list/common/Pagination";
 import Sidebar from "@/components/tour-list/tour-list-v2/Sidebar";
 
-/*export const metadata = {
-  title: "Tour List v2 || Dream Trip - Travel & Tour",
-  description: "Dream Trip - Travel & Tour",
-};
-*/
 const index = () => {
   return (
     <>
@@ -65,10 +60,6 @@ const index = () => {
               <TopHeaderFilter />
               <div className="mt-30"></div>
               {/* End mt--30 */}
-              <div className="row y-gap-30">
-                <TourProperties />
-              </div>
-              {/* End .row */}
               <Pagination />
             </div>
             {/* End .col for right content */}
