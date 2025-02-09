@@ -1,14 +1,15 @@
+"use client";
+
 import CallToActions from "@/components/common/CallToActions";
 import Header11 from "@/components/header/header-11";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/tour-list/tour-list-v2/TopHeaderFilter";
-import TourProperties from "@/components/tour-list/tour-list-v2/TourProperties";
 import Pagination from "@/components/tour-list/common/Pagination";
 import Sidebar from "@/components/tour-list/tour-list-v2/Sidebar";
 
 export const metadata = {
-  title: "Tour List v2 || Dream Trip - Travel & Tour React NextJS Template",
-  description: "Dream Trip - Travel & Tour React NextJS Template",
+  title: "Tour List v2 || Dream Trip - Travel & Tour",
+  description: "Dream Trip - Travel & Tour",
 };
 
 const index = () => {
