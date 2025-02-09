@@ -7,16 +7,10 @@ import TopHeaderFilter from "@/components/tour-list/tour-list-v1/TopHeaderFilter
 import Pagination from "@/components/tour-list/common/Pagination";
 import Sidebar from "@/components/tour-list/tour-list-v1/Sidebar";
 
-/*export const metadata = {
-  title: "Tour List v1 || Dream Trip - Travel & Tour",
-  description: "Dream Trip - Travel & Tour",
-};
-*/
-const index = () => {
+const Index = () => {
   return (
     <>
       {/* End Page Title */}
-
       <div className="header-margin"></div>
       {/* header top margin */}
 
@@ -48,15 +42,9 @@ const index = () => {
               </aside>
               {/* End sidebar for desktop */}
 
-              <div
-                className="offcanvas offcanvas-start"
-                tabIndex="-1"
-                id="listingSidebar"
-              >
+              <div className="offcanvas offcanvas-start" tabIndex="-1" id="listingSidebar">
                 <div className="offcanvas-header">
-                  <h5 className="offcanvas-title" id="offcanvasLabel">
-                    Filter Tours
-                  </h5>
+                  <h5 className="offcanvas-title" id="offcanvasLabel">Filter Tours</h5>
                   <button
                     type="button"
                     className="btn-close"
@@ -67,7 +55,7 @@ const index = () => {
                 {/* End offcanvas header */}
 
                 <div className="offcanvas-body">
-                  <aside className="sidebar y-gap-40  xl:d-block">
+                  <aside className="sidebar y-gap-40 xl:d-block">
                     <Sidebar />
                   </aside>
                 </div>
@@ -77,14 +65,11 @@ const index = () => {
             </div>
             {/* End col */}
 
-            <div className="col-xl-9 ">
+            <div className="col-xl-9">
               <TopHeaderFilter />
               <div className="mt-30"></div>
               {/* End mt--30 */}
-              <div className="row y-gap-30">
-                <TourProperties />
-              </div>
-              {/* End .row */}
+
               <Pagination />
             </div>
             {/* End .col for right content */}
@@ -103,4 +88,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
