@@ -7,11 +7,6 @@ import Pagination from "@/components/tour-list/common/Pagination";
 import MainFilterSearchBox from "@/components/tour-list/tour-list-v3/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/tour-list/tour-list-v3/TopHeaderFilter";
 
-/*export const metadata = {
-  title: "Tour List v3 || Dream Trip - Travel & Tour",
-  description: "Dream Trip - Travel & Tour",
-};
-*/
 const index = () => {
   return (
     <>
@@ -34,11 +29,6 @@ const index = () => {
 
           <div className="row y-gap-10 justify-between items-center pt-20">
             <TopHeaderFilter />
-          </div>
-          {/* End .row */}
-
-          <div className="row y-gap-20 pt-20">
-            <TourProperties />
           </div>
           {/* End .row */}
 
