@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
-import { homeItems, categorieMobileItems, categorieMegaMenuItems, pageItems, dashboardItems } from "../../data/mainMenuData";
+import { homeItems, categorieMobileItems, categorieMegaMenuItems } from "../../data/mainMenuData"; // Removed pageItems
 import { isActiveLink } from "../../utils/linkActiveChecker";
 import Social from "../common/social/Social";
 import ContactInfo from "./ContactInfo";
@@ -81,30 +81,6 @@ const MobileMenu = () => {
           <MenuItem onClick={() => router.push("/destinations")} className={pathname === "/destinations" ? "menu-active-link" : ""}>
             Destinations
           </MenuItem>
-
-          <SubMenu label="Pages" className={pageItems.some((item) => item.routePath?.split("/")[1] === pathname.split("/")[1]) ? "menu-active-link" : ""}>
-            {pageItems.map((item, i) => (
-              <MenuItem
-                key={i}
-                onClick={() => router.push(item.routePath)}
-                className={isActiveLink(item.routePath, pathname) ? "menu-active-link" : "inactive-menu"}
-              >
-                {item.name}
-              </MenuItem>
-            ))}
-          </SubMenu>
-
-          <SubMenu label="Dashboard" className={pathname.split("/")[1] === "dashboard" || pathname.split("/")[1] === "vendor-dashboard" ? "menu-active-link" : ""}>
-            {dashboardItems.map((item, i) => (
-              <MenuItem
-                key={i}
-                onClick={() => router.push(item.routePath)}
-                className={isActiveLink(item.routePath, pathname) ? "menu-active-link" : "inactive-menu"}
-              >
-                {item.name}
-              </MenuItem>
-            ))}
-          </SubMenu>
 
           <MenuItem onClick={() => router.push("/contact")} className={pathname === "/contact" ? "menu-active-link" : ""}>
             Contact
