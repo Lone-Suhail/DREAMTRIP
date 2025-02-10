@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { homeItems, pageItems, dashboardItems } from "../../data/mainMenuData";
+import { homeItems } from "../../data/mainMenuData"; // Removed pageItems
 import CategoriesMegaMenu from "./CategoriesMegaMenu";
 import { isActiveParentChaild, isActiveLink } from "../../utils/linkActiveChecker";
 import { usePathname } from "next/navigation";
@@ -42,36 +42,6 @@ const MainMenu = ({ style = "" }) => {
           <Link href="/destinations">Destinations</Link>
         </li>
         {/* End destinations menu */}
-
-        <li className={`${isActiveParentChaild(pageItems, pathname) ? "current" : ""} menu-item-has-children`}>
-          <a href="#">
-            <span className="mr-10">Pages</span>
-            <i className="icon icon-chevron-sm-down" />
-          </a>
-          <ul className="subnav">
-            {pageItems.map((menu, i) => (
-              <li key={i} className={isActiveLink(menu.routePath, pathname) ? "current" : ""}>
-                <Link href={menu.routePath}>{menu.name}</Link>
-              </li>
-            ))}
-          </ul>
-        </li>
-        {/* End pages menu */}
-
-        <li className={`${pathname.split("/")[1] === "dashboard" || pathname.split("/")[1] === "vendor-dashboard" ? "current" : ""} menu-item-has-children`}>
-          <a href="#">
-            <span className="mr-10">Dashboard</span>
-            <i className="icon icon-chevron-sm-down" />
-          </a>
-          <ul className="subnav">
-            {dashboardItems.map((menu, i) => (
-              <li key={i} className={isActiveLink(menu.routePath, pathname) ? "current" : ""}>
-                <Link href={menu.routePath}>{menu.name}</Link>
-              </li>
-            ))}
-          </ul>
-        </li>
-        {/* End dashboard menu */}
 
         <li className={pathname === "/contact" ? "current" : ""}>
           <Link href="/contact">Contact</Link>
