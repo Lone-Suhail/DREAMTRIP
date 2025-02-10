@@ -2,17 +2,6 @@ export const homeItems = [
   { name: "Home", routePath: "/" },
 ];
 
-export const pageItems = [
-  { name: "404", routePath: "/404" },
-  { name: "About", routePath: "/about" },
-  { name: "Become Expert", routePath: "/become-expert" },
-  { name: "Help Center", routePath: "/help-center" },
-  { name: "Login", routePath: "/login" },
-  { name: "Register", routePath: "/signup" },
-  { name: "Terms", routePath: "/terms" },
-  { name: "Invoice", routePath: "/invoice" },
-];
-
 export const categorieMegaMenuItems = [
   {
     id: 2,
