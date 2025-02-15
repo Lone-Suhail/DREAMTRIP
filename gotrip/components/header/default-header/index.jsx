@@ -38,7 +38,7 @@ const Header1 = () => {
                   src="/img/general/logo-dark.svg"
                   alt="My Website Logo"
                   width={120}
-                  height={80}
+                  height={100}
                 />
               </Link>
               {/* End logo */}
