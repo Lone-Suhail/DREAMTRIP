@@ -1,9 +1,8 @@
-
 'use client';
 
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import MainMenu from "../MainMenu";
 import CurrenctyMegaMenu from "../CurrenctyMegaMenu";
 import LanguageMegaMenu from "../LanguageMegaMenu";
@@ -12,55 +11,59 @@ import MobileMenu from "../MobileMenu";
 const Header1 = () => {
   const [navbar, setNavbar] = useState(false);
 
-  const changeBackground = () => {
+  // Memoize the scroll event handler
+  const changeBackground = useCallback(() => {
     if (window.scrollY >= 10) {
       setNavbar(true);
     } else {
       setNavbar(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", changeBackground);
     return () => {
       window.removeEventListener("scroll", changeBackground);
     };
-  }, []);
+  }, [changeBackground]);
 
   return (
     <header className={`header bg-white ${navbar ? "is-sticky" : ""}`}>
       <div className="header__container px-30 sm:px-20">
         <div className="row justify-between items-center">
+          {/* Logo and Main Menu */}
           <div className="col-auto">
             <div className="d-flex items-center">
               <Link href="/" className="header-logo mr-20">
                 <Image
                   src="/img/general/logo-dark.svg"
-                  alt="My Website Logo"
+                  alt="Website Logo"
                   width={250}
                   height={200}
+                  priority // Ensures the logo loads quickly
                 />
               </Link>
               {/* End logo */}
 
-              <nav className="header-menu">
+              <nav className="header-menu" aria-label="Main navigation">
                 <div className="header-menu__content">
                   <MainMenu style="text-dark-1" />
                 </div>
               </nav>
               {/* End header-menu */}
             </div>
-            {/* End d-flex */}
           </div>
           {/* End col */}
 
+          {/* Currency, Language, and Mobile Menu Icon */}
           <div className="col-auto">
             <div className="d-flex items-center">
+              {/* Currency and Language Selectors */}
               <div className="row x-gap-20 items-center xxl:d-none">
                 <CurrenctyMegaMenu textClass="text-dark-1" />
-                {/* End Megamenu for Currencty */}
+                {/* End Megamenu for Currency */}
 
-                {/* Start vertical divider */}
+                {/* Vertical Divider */}
                 <div className="col-auto">
                   <div className="w-1 h-20 bg-white-20" />
                 </div>
@@ -70,23 +73,6 @@ const Header1 = () => {
                 {/* End Megamenu for Language */}
               </div>
               {/* End language and currency selector */}
-
-              {/* Start btn-group */}
-              <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
-                <Link
-                  href="/login"
-                  className="button px-30 fw-400 text-14 -blue-1 bg-blue-1 h-50 text-white"
-                >
-                  Become An Expert
-                </Link>
-                <Link
-                  href="/signup"
-                  className="button px-30 fw-400 text-14 -outline-blue-1 h-50 text-blue-1 ml-20"
-                >
-                  Sign In / Register
-                </Link>
-              </div>
-              {/* End btn-group */}
 
               {/* Start mobile menu icon */}
               <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-dark-1">
